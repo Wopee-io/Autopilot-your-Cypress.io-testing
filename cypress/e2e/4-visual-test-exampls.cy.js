@@ -1,12 +1,12 @@
 /// <reference types="cypress" />
 /// <reference types='@wopee-io/wopee.cy' />
 
-
 const baseUrl = "https://b2b.kvelektro.cz/registrace";
 
 before(() => {
-  cy.wopeeStartSuite('cy-suite-030424/3');
+  cy.wopeeStartSuite("Wopee visual testing example");
 });
+
 
 describe("Wopee visual testing benefits", () => {
   it.skip("Long list of asserts", () => {

@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { defineConfig } = require("cypress");
 const { addWopeePlugin } = require("@wopee-io/wopee.cy");
 
