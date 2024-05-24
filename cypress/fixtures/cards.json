@@ -1,0 +1,20 @@
+{
+  "validCard": {
+    "first": "4000",
+    "second": "0566",
+    "third": "5566",
+    "last": "5556",
+    "name": "Marcel Veselka",
+    "expDate": "12/28",
+    "cvc": "123"
+  },
+  "invalidCard": {
+    "first": "4000",
+    "second": "0566",
+    "third": "5566",
+    "last": "5556",
+    "name": "Marcel Veselka",
+    "expDate": "13/28",
+    "cvc": "99"
+  }
+}

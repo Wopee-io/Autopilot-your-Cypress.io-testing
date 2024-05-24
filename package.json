@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "cypress": "^12.0.0"
+  },
+  "dependencies": {
+    "@wopee-io/wopee.cy": "^3.2.1",
+    "openai": "^4.47.1"
+  }
+}

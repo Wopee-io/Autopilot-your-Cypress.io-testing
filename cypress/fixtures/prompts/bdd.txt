@@ -1,0 +1,26 @@
+I'm a test engineer writing tests in Cypress.io using the Javascript and BDD style.
+I've opened a web page, followed the steps in a test scenario and now I want to interact with a 
+website conducting the next step. The step is: {{ step }}
+
+The step type is: {{ stepType }}. Do not propose any fill or click actions for steps which has type THEN.
+Do not propose any actions without the HTML code provided.
+
+Use realistic test data (consider defined and typical validations) and use locators from this HTML:
+```html
+{{ html }}
+```
+
+Propose none, a single step or more steps to accomplish it in JSON format. 
+Follow thoroughly the step instructions. Example:
+```json
+{ "actions": 
+    [
+        { "step": 1, "value": "https://google.com", "action": "visit" },
+        { "step": 2, "locator": "#name", "value": "Marcel", "action": "fill" },
+        { "step": 3, "locator": "#pswd", "value": "abc123", "action": "fill" },
+        { "step": 4, "locator": ".submit", "action": "click" }
+    ]
+}
+```
+
+Always return an array of actions, even if there is only one action.
