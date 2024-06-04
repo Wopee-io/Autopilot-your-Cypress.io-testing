@@ -5,7 +5,6 @@ const baseUrl = "https://www.saucedemo.com/";
 
 describe("AI Interaction demo", () => {
   it("Natural language instead of locators", () => {
-    cy.log(Cypress.env("openAIAPIKey"));
     cy.visit(baseUrl, { failOnStatusCode: false });
     cy.wopeeAction("Navigate to login page");
   });
